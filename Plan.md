@@ -1,4 +1,55 @@
 # AeroInspect AI - Plan
+
+## MVP Deliverables
+
+### AI Features
+
+* Helmet Detection
+* Safety Vest Detection
+* Construction Component Detection
+* Basic Progress Tracking
+
+### Platform Features
+
+* Image & Video Upload
+* Compliance Dashboard
+* Inspection History
+* Analytics & Reporting
+* Alert System
+
+### Deployment
+
+* Dockerized Application
+* AWS Hosted MVP
+
+---
+
+## System Architecture
+
+Image/Video Upload
+
+↓
+
+YOLOv8 Detection Engine
+
+↓
+
+FastAPI Backend
+
+↓
+
+PostgreSQL Database
+
+↓
+
+Analytics & Reporting Layer
+
+↓
+
+React Dashboard
+
+---
+
 ## Technology Stack & Purpose
 
 ### AI / Computer Vision Layer
@@ -77,24 +128,22 @@
 
 ---
 
-### Device & Input Sources
+## Device & Input Sources
 
-**MVP**
+### MVP
 
 * Uploaded Images
 * Uploaded Videos
 * Mobile Phone Cameras
 * Tablet-Based Site Inspections
 
-**Future Integrations**
+### Future Integrations
 
 * CCTV Cameras
 * IP Cameras
 * Drones / UAVs
 * Raspberry Pi Devices
 * NVIDIA Jetson Edge Devices
-
----
 
 ### Future Edge AI Layer
 
@@ -105,6 +154,8 @@
 * Optimize AI models for edge deployment
 * Enable real-time inference on CCTV and drone feeds
 * Reduce latency and cloud dependency
+
+---
 
 ## Project Timeline
 
@@ -158,57 +209,6 @@
 
 ---
 
-## MVP Deliverables
-
-### AI Features
-
-* Helmet Detection
-* Safety Vest Detection
-* Construction Component Detection
-* Basic Progress Tracking
-
-### Platform Features
-
-* Image & Video Upload
-* Compliance Dashboard
-* Inspection History
-* Analytics & Reporting
-* Alert System
-
-### Deployment
-
-* Dockerized Application
-* AWS Hosted MVP
-
----
-
-## System Architecture
-
-Image/Video Upload  
-
-↓
-
-YOLOv8 Detection Engine
-
-↓
-
-FastAPI Backend
-
-↓
-
-PostgreSQL Database
-
-↓
-
-Analytics & Reporting Layer
-
-↓
-
-React Dashboard
-
----
-
-
 ## Dependencies
 
 * Suitable datasets for PPE and construction component detection
@@ -229,6 +229,8 @@ React Dashboard
 ## Our Approach
 
 To reduce risk, we plan to start with a focused MVP and build incrementally. We will leverage pretrained YOLOv8 models, validate each module independently, and prioritize delivering a complete end-to-end working system before adding advanced features.
+
+---
 
 ## Long-Term Vision
 
