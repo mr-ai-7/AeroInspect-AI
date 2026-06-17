@@ -1,3 +1,4 @@
+
 # AeroInspect AI - Skills & Responsibilities
 
 ## Team Members
