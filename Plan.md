@@ -78,16 +78,26 @@
 
 ## System Architecture
 
-Image/Video Upload
+Image/Video Upload  
+
 ↓
+
 YOLOv8 Detection Engine
+
 ↓
+
+
 FastAPI Backend
 ↓
+
 PostgreSQL Database
+
 ↓
+
 Analytics & Reporting Layer
+
 ↓
+
 React Dashboard
 
 ---
