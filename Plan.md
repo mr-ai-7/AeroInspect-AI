@@ -1,4 +1,110 @@
 # AeroInspect AI - Plan
+## Technology Stack & Purpose
+
+### AI / Computer Vision Layer
+
+**Technologies:** Python, PyTorch, YOLOv8, OpenCV
+
+**Purpose:**
+
+* Detect helmets and safety vests (PPE compliance)
+* Identify construction components
+* Analyze images and videos from construction sites
+* Generate inspection results and safety metrics
+
+---
+
+### Backend Layer
+
+**Technologies:** FastAPI, REST APIs
+
+**Purpose:**
+
+* Receive image/video uploads
+* Communicate with the AI detection engine
+* Manage projects, users, and inspections
+* Generate reports and serve analytics data
+
+---
+
+### Database Layer
+
+**Technology:** PostgreSQL
+
+**Purpose:**
+
+* Store inspection records
+* Store compliance and violation history
+* Manage project and user information
+* Maintain report and audit logs
+
+---
+
+### Frontend / Dashboard Layer
+
+**Technology:** React
+
+**Purpose:**
+
+* Display inspection results
+* Visualize compliance metrics
+* Track construction progress
+* View reports, alerts, and analytics
+
+---
+
+### Storage Layer
+
+**Technology:** AWS S3
+
+**Purpose:**
+
+* Store uploaded images and videos
+* Store generated reports
+* Maintain inspection history
+
+---
+
+### Deployment Layer
+
+**Technologies:** Docker, AWS
+
+**Purpose:**
+
+* Containerize application services
+* Deploy backend and dashboard
+* Enable scalable cloud hosting
+
+---
+
+### Device & Input Sources
+
+**MVP**
+
+* Uploaded Images
+* Uploaded Videos
+* Mobile Phone Cameras
+* Tablet-Based Site Inspections
+
+**Future Integrations**
+
+* CCTV Cameras
+* IP Cameras
+* Drones / UAVs
+* Raspberry Pi Devices
+* NVIDIA Jetson Edge Devices
+
+---
+
+### Future Edge AI Layer
+
+**Technologies:** ONNX, TensorRT
+
+**Purpose:**
+
+* Optimize AI models for edge deployment
+* Enable real-time inference on CCTV and drone feeds
+* Reduce latency and cloud dependency
 
 ## Project Timeline
 
