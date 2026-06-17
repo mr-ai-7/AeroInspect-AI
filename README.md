@@ -1,4 +1,22 @@
 # AeroInspect AI
+AeroInspect-AI
+│
+├── README.md
+├── Context.md
+├── Plan.md
+├── Skill.md
+│
+├── docs/
+│
+├── backend/
+│
+├── frontend/
+│
+├── models/
+│
+├── datasets/
+│
+└── deployment/
 
 AeroInspect AI is a Visual Inspection Intelligence Platform that uses AI-powered image and video analysis to automate safety compliance monitoring, construction progress tracking, inspection workflows, and automated reporting.
 
