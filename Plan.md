@@ -103,19 +103,26 @@ React Dashboard
 ---
 
 
-Dependencies
-Suitable datasets for PPE and construction component detection
-Cloud resources for deployment and testing
-Sample construction site images/videos for validation
-Potential Challenges
-Finding datasets that closely match real construction site conditions
-Handling different lighting conditions, camera angles, and crowded scenes
-Balancing model accuracy with the internship timeline
-Ensuring smooth integration between AI, backend, and dashboard components
-Our Approach
+## Dependencies
+
+* Suitable datasets for PPE and construction component detection
+* Cloud resources for deployment and testing
+* Sample construction site images/videos for validation
+
+---
+
+## Potential Challenges
+
+* Finding datasets that closely match real construction site conditions
+* Handling different lighting conditions, camera angles, and crowded scenes
+* Balancing model accuracy with the internship timeline
+* Ensuring smooth integration between AI, backend, and dashboard components
+
+---
+
+## Our Approach
 
 To reduce risk, we plan to start with a focused MVP and build incrementally. We will leverage pretrained YOLOv8 models, validate each module independently, and prioritize delivering a complete end-to-end working system before adding advanced features.
-
 
 ## Long-Term Vision
 
