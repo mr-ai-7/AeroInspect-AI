@@ -98,5 +98,51 @@ Reviews reports and ensures regulatory compliance.
 ---
 
 
+## Deployment Sources & Device Compatibility
+
+AeroInspect AI is designed as a reusable Visual Inspection Platform that can work across multiple input sources and deployment environments.
+
+### Supported Input Sources (MVP)
+
+* Uploaded Images
+* Uploaded Videos
+* Mobile Phone Cameras
+* Tablet-Based Site Inspections
+
+### Future Integrations
+
+#### CCTV & Surveillance Systems
+
+* CCTV Cameras
+* IP Cameras
+* Security Monitoring Systems
+
+#### Aerial Inspection Systems
+
+* Drones
+* UAV-Based Site Monitoring
+
+#### Edge Devices
+
+* Raspberry Pi
+* NVIDIA Jetson Devices
+
+### Deployment Approaches
+
+#### Cloud Deployment (Initial MVP)
+
+* AI inference hosted on AWS
+* Dashboard accessible through web browsers
+* Centralized analytics and reporting
+
+#### Edge Deployment (Future Phase)
+
+* Real-time monitoring on edge devices
+* Reduced latency and bandwidth requirements
+* Suitable for remote construction sites
+
+The goal is to build a flexible visual inspection platform that can operate across different environments while keeping the initial MVP focused on construction safety compliance and progress tracking.
+
+
 
 Most existing solutions focus on enterprise-scale deployments. Our MVP focuses on delivering a practical and scalable inspection platform that demonstrates immediate value while remaining extensible for future integrations with drones, CCTV systems, and edge devices.
