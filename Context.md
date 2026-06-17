@@ -97,13 +97,6 @@ Reviews reports and ensures regulatory compliance.
 
 ---
 
-## Competitor Research
 
-We researched solutions such as:
-
-* viAct
-* Everguard.ai
-* Smartvid.io
-* Intenseye
 
 Most existing solutions focus on enterprise-scale deployments. Our MVP focuses on delivering a practical and scalable inspection platform that demonstrates immediate value while remaining extensible for future integrations with drones, CCTV systems, and edge devices.
