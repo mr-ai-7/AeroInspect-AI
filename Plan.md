@@ -86,8 +86,8 @@ YOLOv8 Detection Engine
 
 ↓
 
-
 FastAPI Backend
+
 ↓
 
 PostgreSQL Database
