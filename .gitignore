@@ -1,0 +1,17 @@
+# Python virtual environment -- never commit this, it's machine-specific
+# and huge (thousands of files). Anyone cloning the repo recreates it with
+# requirements.txt instead.
+venv/
+
+# Python bytecode/cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/OS cruft
+.vscode/
+.DS_Store
+Thumbs.db
+
+# NOTE: violations/ (evidence photos) and best.pt (model weights) are
+# intentionally NOT ignored -- included in the push per your instruction.
